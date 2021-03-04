@@ -1,0 +1,44 @@
+* {
+margin: 0;
+}
+
+.navbar {
+    background: skyblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+}
+
+.links li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+header {
+    height: 100px;
+    background: teal;
+}
+
+.content {
+    display: flex;
+    height: 200px;
+    background: turquoise;
+
+}
+
+.news {
+    flex: 0.9;
+}
+
+.reactions {
+    background: violet;
+    flex: 0.3;
+}
+
+footer {
+    background: wheat;
+}
